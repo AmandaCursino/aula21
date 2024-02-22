@@ -1,0 +1,15 @@
+.calculator {
+  border: 1px solid #000;
+  padding: 10px;
+  display: inline-block;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  height: 40px;
+}
